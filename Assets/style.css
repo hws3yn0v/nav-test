@@ -1,0 +1,64 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-left {
+  margin: 1rem;
+  display: flex;
+}
+nav .nav-left .logo {
+  margin: 0.9rem 5rem 0 3rem;
+}
+nav .nav-left .logo img {
+  width: 100px;
+  height: auto;
+}
+nav .nav-left .search {
+  margin: 1.1rem 5rem 0 5rem;
+}
+nav .nav-left .search input {
+  margin: 0 1rem;
+  outline: none;
+  border: none;
+  width: 25rem;
+  padding: 5px;
+}
+nav .nav-left .search input:focus {
+  border: 1px solid #969798;
+  padding: 5px;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+nav .nav-right {
+  display: flex;
+  margin: 1rem;
+}
+nav .nav-right .navigations {
+  margin: 1.1rem 5rem 0 0;
+}
+nav .nav-right .navigations a {
+  margin: 0 10px;
+}
+nav .nav-right .profile {
+  display: flex;
+  margin: 0.2rem 3rem 0 2rem;
+  border: 1px solid #969798;
+  border-radius: 20px;
+  padding: 5px;
+}
+nav .nav-right .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+nav .nav-right .profile P {
+  margin: 0.5rem;
+}
+nav .nav-right .profile i {
+  margin-top: 0.5rem;
+}
+nav .nav-right .profile .rotate {
+  transform: rotate(180deg);
+  transition: transform 0.5s ease;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */

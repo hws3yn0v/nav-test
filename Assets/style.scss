@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    .nav-left{
+        margin: 1rem;
+        display: flex;
+        .logo{
+            margin: 0.9rem 5rem 0 3rem;
+            img{
+                width: 100px;
+                height: auto;
+            }
+        }
+        .search{
+            margin:1.1rem 5rem 0 5rem;
+            input{
+                margin:0 1rem;
+                outline: none;
+                border: none;
+                width: 25rem;
+                padding: 5px;
+                
+                &:focus{
+                    border: 1px solid #969798;
+                    padding: 5px;
+                    border-radius: 15px;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+    .nav-right{
+        display: flex;
+        margin: 1rem;
+        .navigations{
+            margin: 1.1rem 5rem 0 0;
+            a{
+                margin: 0 10px;
+            }
+        }
+        .profile{
+            display: flex;
+            margin: 0.2rem 3rem 0 2rem;
+            border: 1px solid #969798;
+            border-radius: 20px;
+            padding: 5px;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+            P{
+                margin: 0.5rem;
+            }
+            i{
+                margin-top: 0.5rem;
+            }
+            .rotate {
+                transform: rotate(180deg);
+                transition: transform 0.5s ease;
+                margin-bottom: 15px;
+              }              
+              
+        }
+        
+    }
+}
